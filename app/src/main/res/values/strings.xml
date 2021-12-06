@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Street Test</string>
+    <string name="user">ALIAS</string>
+    <string name="clave">CLAVE</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="registrase">HAZ PARTE DEL TEAM</string>
+    <string name="olvide">"Recuerdame plis "</string>
+
+    <string name="continuar">Continuar</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="correo">Correo</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Login2">
+
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@mipmap/ic_index_round" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F2FAB941"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginVertical="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="#752497"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:text="YA FALTA POCO" />
+
+                <EditText
+                    android:id="@+id/edit_nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="9"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:ems="10"
+                    android:hint="@string/Nombre"
+                    android:inputType="textPersonName"
+                    android:padding="20dp" />
+                <EditText
+                    android:id="@+id/edit_apellido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="9"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:ems="10"
+                    android:hint="@string/Apellido"
+                    android:inputType="textPersonName"
+                    android:padding="20dp" />
+                <EditText
+                    android:id="@+id/edit_correo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="9"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:ems="10"
+                    android:hint="@string/correo"
+                    android:inputType="textPersonName"
+                    android:padding="20dp" />
+                <EditText
+                    android:id="@+id/edit_alias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="9"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:ems="10"
+                    android:hint="@string/user"
+                    android:inputType="textPersonName"
+                    android:padding="20dp" />
+
+                <EditText
+                    android:id="@+id/edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="9"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:ems="9"
+                    android:hint="@string/clave"
+                    android:inputType="textPassword"
+                    android:padding="20dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonIngresar"
+                    android:layout_width="match_parent"
+                    android:layout_height="92dp"
+                    android:layout_marginBottom="30dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:text="@string/ingresar"
+                    android:onClick="continuar_login2"
+                    app:srcCompat="@drawable/play2" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
